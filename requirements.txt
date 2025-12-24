@@ -2,3 +2,6 @@ Flask
 requests
 fake-useragent
 gunicorn
+fake-useragent
+Flask
+requests

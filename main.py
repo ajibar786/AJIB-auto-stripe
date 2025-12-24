@@ -346,3 +346,6 @@ def bulk_process_request(key, cc):
 @app.route('/health')
 def health_check():
     return jsonify({"status": "ok", "message": "Application is running"})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=False)
